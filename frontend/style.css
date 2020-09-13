@@ -90,3 +90,11 @@ footer {
 .product-price {
   font-size: 2rem;
 }
+.rating {
+  color: #ffc000;
+  font-size: 1.8rem;
+}
+.rating span:last-child {
+  color: black;
+  font-size: 1.4rem;
+}
