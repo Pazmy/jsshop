@@ -16,6 +16,28 @@ a {
 a:hover {
   color: #f08040;
 }
+button {
+  font: 1.6rem helvetica;
+  padding: 1rem;
+  border: 0.1rem #808080 solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+button:hover {
+  border: 0.1rem #404040 solid;
+}
+button.primary {
+  background-color: #f0c040;
+}
+.fw {
+  width: 100%;
+}
+.succes {
+  color: #40c040;
+}
+.error {
+  color: #c04040;
+}
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -97,4 +119,45 @@ footer {
 .rating span:last-child {
   color: black;
   font-size: 1.4rem;
+}
+
+/*--------------------Product Details----------------*/
+.content {
+  padding: 1rem;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.details-image {
+  flex: 2 1 60rem;
+}
+.details-imaga img {
+  max-width: 60rem;
+  width: 100%;
+}
+.details-info,
+.details-action {
+  flex: 1 1 30rem;
+}
+.details-info ul,
+.details-action ul {
+  list-style-type: none;
+  padding: 0;
+}
+.details-info h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+.details-info li,
+.details-action li {
+  margin-bottom: 1rem;
+}
+.details-action {
+  border: 0.1rem #808080 solid;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #f8f8f8;
 }
