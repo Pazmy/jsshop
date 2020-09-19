@@ -29,7 +29,9 @@ export const setUserInfo = ({
     })
   );
 };
-
+export const clearUser = () => {
+  localStorage.removeItem("userinfo");
+};
 export const getUserInfo = () => {
   return localStorage.getItem("userinfo")
     ? JSON.parse(localStorage.getItem("userinfo"))
