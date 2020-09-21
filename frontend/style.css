@@ -251,7 +251,7 @@ footer {
 .form-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100%;
 }
 .form-items {
@@ -271,4 +271,21 @@ footer {
 }
 .form-container h3 {
   font-size: 1.2rem;
+}
+/*----------------------------ChekOut-------------------------*/
+.checkout-steps {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+  width: 40rem;
+}
+.checkout-steps > div {
+  border-top: 0.3rem #c0c0c0 solid;
+  color: #c0c0c0;
+  flex: 1 1;
+  padding-top: 1rem;
+}
+.checkout-steps > div.active {
+  color: #f08000;
+  border-top-color: #f08000;
 }
