@@ -4,6 +4,7 @@ import data from "./data.js";
 import mongoose from "mongoose";
 import userRouter from "./routers/userRouter.js";
 import config from "./config";
+import orderRouter from "./routers/orderRouter.js";
 
 // const url =
 //   "mongodb://awr2:admin@cluster0-shard-00-00.68jz4.gcp.mongodb.net:27017,cluster0-shard-00-01.68jz4.gcp.mongodb.net:27017,cluster0-shard-00-02.68jz4.gcp.mongodb.net:27017/js-shop?ssl=true&replicaSet=atlas-paedb5-shard-0&authSource=admin&retryWrites=true&w=majority";
@@ -22,6 +23,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/api/users", userRouter);
+app.use("/api/orders", orderRouter);
 app.get("/api/products", (req, res) => {
   res.send(data.products);
 });

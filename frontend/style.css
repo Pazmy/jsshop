@@ -294,6 +294,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
   padding: 1rem;
 }
 .order h2 {
@@ -313,6 +314,9 @@ footer {
   background-color: #fcfcfc;
   padding: 1rem;
   margin: 1rem;
+}
+.order-info > div:first-child {
+  margin-top: 0;
 }
 .order-action {
   flex: 1 1 20rem;

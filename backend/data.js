@@ -1,7 +1,7 @@
 export default {
   products: [
     {
-      _id: "1",
+      _id: "111111111111111111111111",
       name: "Hiskywin Full Zip Running Shirts Thermal Workout",
       category: "Shirts",
       image: "images/product-1.jpg",
@@ -32,7 +32,7 @@ export default {
       numReviews: 45,
     },
     {
-      _id: "4",
+      _id: "444444444444444444444444",
       name: "Under Armour Mens Sportstyle Tricot Joggers",
       category: "Pants",
       image: "images/product-4.jpg",
