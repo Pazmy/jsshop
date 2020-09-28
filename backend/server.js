@@ -6,8 +6,7 @@ import userRouter from "./routers/userRouter.js";
 import config from "./config";
 import orderRouter from "./routers/orderRouter.js";
 
-// const url =
-//   "mongodb://awr2:admin@cluster0-shard-00-00.68jz4.gcp.mongodb.net:27017,cluster0-shard-00-01.68jz4.gcp.mongodb.net:27017,cluster0-shard-00-02.68jz4.gcp.mongodb.net:27017/js-shop?ssl=true&replicaSet=atlas-paedb5-shard-0&authSource=admin&retryWrites=true&w=majority";
+
 
 mongoose
   .connect(config.MONGODB_URL, {
